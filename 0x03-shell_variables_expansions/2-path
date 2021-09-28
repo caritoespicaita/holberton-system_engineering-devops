@@ -1,6 +1,2 @@
 #!/bin/bash
-<<<<<<< HEAD
 PATH=$PATH:/action
-=======
-echo $PATH | tr -s ':' '\n' | wc -l
->>>>>>> 85eee53f877eb3b12e40f8dec66ce9514a7c0389
