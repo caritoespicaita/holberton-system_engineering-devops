@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#bash script that display I am invicible!! when receiving a SIGTERM
+pkill -f 7-highlander
