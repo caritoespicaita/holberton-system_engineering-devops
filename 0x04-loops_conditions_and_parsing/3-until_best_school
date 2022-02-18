@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #script that displays Best School 10 times whit until loop
 i=1 
-until ((i>10))
+until ((i>10));
  do
      echo "Best school" 
      ((i++))
