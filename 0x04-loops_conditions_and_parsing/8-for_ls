@@ -1,12 +1,9 @@
 #!/usr/bin/env bash
-#Write a Bash script that displays the content of the file /etc/passwd.
+# displays the content of the current working directory.
 
-filename="etc/passwd"
-while read -r line
+for i in *
 do
-	set "$line"
-	echo "$1"
-	echo "$3"
-	echo "$6"
-done < "$filename"
+   echo "$i" | cut -d'-' -f2
+done
+
 
