@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#usage: ssh-keygen [-f output_keyfile] [-t rsa] [-N new_passphrase] 
+ssh-keygen -f school -t rsa -N betty -b 4096
