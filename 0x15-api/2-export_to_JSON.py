@@ -16,4 +16,4 @@ if __name__ == "__main__":
                       "username": _name} for i in todos]}
 
     with open("{}.json".format(sys.argv[1]), mode="w") as id_json:
-            json.dump(to_dict, id_json)
+        json.dump(to_dict, id_json)

@@ -16,4 +16,4 @@ if __name__ == "__main__":
                for u in users}
 
     with open("todo_all_employees.json", mode="w") as file_json:
-            json.dump(to_dict, file_json)
+        json.dump(to_dict, file_json)
