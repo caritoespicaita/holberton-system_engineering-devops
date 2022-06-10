@@ -1,4 +1,3 @@
-nes (9 sloc)  235 Bytes
 #Increase the amount of nginx traffic
 
 exec { 'for-nginx':
